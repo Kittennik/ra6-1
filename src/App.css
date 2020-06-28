@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+input {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.clock-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-clock {
+  width: 150px;
+  position: relative;
+  margin-right: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.item-clock p {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export default class ClockItem extends React.Component {
+export default class ClockItem extends Component {
   constructor(props) {
     super(props);
     this.state = {
